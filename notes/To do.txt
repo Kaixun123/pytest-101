@@ -1,0 +1,11 @@
+To Do:
+1) Pytest - api call
+
+2) Output should appear on html page
+- pip install pytest-html (in cmd)
+- pytest --html=report.html (in cmd)
+
+3) Flask (example)
+
+4) Pytest parameterlize (with one method)
+- pytest.mark.parametrize decorator enables parametrization of arguments for a test function.

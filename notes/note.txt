@@ -1,0 +1,37 @@
+(Pytest)
+- A robust Python testing tool, pytest can be used for all types and levels of software testing.
+pytest is a software test framework, which means pytest is a command-line tool that automatically finds tests you've written,
+runs the tests, and reports the results
+
+- pytest is a framework that makes building simple and scalable tests easy.
+Tests are expressive and readable
+
+- pytest will run all files of the form test_*.py or *_test.py in the current directory and its subdirectories.
+More generally, it follows standard test discovery rules.
+
+- To get more info about the test run, use the above command with -v (verbose) option.
+
+- The purpose of test fixtures is to provide a fixed baseline upon which tests can reliably and repeatedly execute.
+There are two types of methods for fixtures, setup and teardown.
+
+- must have two line spacing for each test function
+
+Testing framework
+    - unittest
+    - nose
+    - pytest (*)
+
+Ways to run pytest in terminal: (in cmd)
+    - pytest (will test all test scenario in the project folder)
+    - pytest test_sample.py (will test the specific file)
+    - -v (a more specific looks on which test pass or failed)
+    - ::<testname> (to test a specific function)
+    - -k (keywords for individual test)
+    - -m (marks to test multiple tests)
+    - -x (exit whenever there is a failure in the test)
+    - --tb=no (would show which part of the code contains an error)
+    - --maxfail=<num> (To allow the number of failures before exiting out of the system)
+    - @pytest.mark.skip/skipif(reason = "do not run number add test") (will skip this test, good for else if testing) - in pyCharm
+    - -rsx (to show the reasons for skipping in verbose mode on the terminal)
+    - -s (to print any output)
+    - -q (quiet mode)
